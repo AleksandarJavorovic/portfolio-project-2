@@ -1,7 +1,57 @@
-
 /* Asterisk Wildcald selector, to override default styles */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* Main Content */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: aqua;
+    
+}
+
+#main-area {
+    max-width: 600px;
+    height: 100vh;
+    display: flexbox;
+    justify-content: center;
+    background-color: orangered;
+    margin: auto;
+    text-align: center;
+    padding: 50px 10px;
+    
+}
+
+#main-area h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#main-area p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+
+.player-name-label {
+    font-size: 2rem;
+}
+
+#player-name {
+    font-size: 2rem;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+#start-quiz {
+    font-size: 2rem;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 15px;
 }
