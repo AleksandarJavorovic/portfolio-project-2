@@ -10,9 +10,11 @@
     <title>IT-Quiz</title>
 </head>
 <body>
+    <!-- Quiz name section -->
     <section class="quiz-name text-align">
     <h1>IT-Quiz</h1>
     </section>
+    <!-- Welcome/Rules/Registartion Section -->
     <section id="main-area" class="text-align">
         <div class="rules">
             <p>Welcome to the IT-Quiz. Here you can test your knowledge about basics of HTML, CSS and JS. We hope that you gonna have some fun!</p>
@@ -25,6 +27,25 @@
         </div>
         <button type="submit" id="start-quiz">Start!</button>
     </section>
+    <!-- Quiz Section -->
+    <section id="quiz-area">
+        <div class="player-score">
+            <p>Player Name: <span id="player-name-status">Alex</span></p>
+            <p>Correct Answers: <span id="score">0</span></p>
+            <p>Wrong Answers: <span id="wrong">0</span></p>
+        </div>
+        <div id="question-answer-area">
+            <div>
+                <p>Question:</p>
+            </div>
+            <div>
+                <button>Answer 1</button>
+                <button>Answer 2</button>
+                <button>Answer 3</button>
+                <button>Answer 4</button>
+            </div>
+        </div>
+    </section> 
     <script src="assets/js/script.js"></script>
 </body>
 </html>

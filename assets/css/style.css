@@ -29,6 +29,10 @@ body {
     
 }
 
+.quiz-name {
+    margin-top: 50px;
+}
+
 .quiz-name h1 {
     font-size: 3rem;
     margin-bottom: 15px;
@@ -50,6 +54,7 @@ body {
     border-radius: 20px;
     margin-top: 15px;
     padding-left: 15px;
+    color: #000;
 }
 
 #start-quiz {
