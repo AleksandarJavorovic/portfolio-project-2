@@ -10,8 +10,10 @@
     <title>IT-Quiz</title>
 </head>
 <body>
-    <section id="main-area">
-        <h1>IT-Quiz</h1>
+    <section class="quiz-name text-align">
+    <h1>IT-Quiz</h1>
+    </section>
+    <section id="main-area" class="text-align">
         <div class="rules">
             <p>Welcome to the IT-Quiz. Here you can test your knowledge about basics of HTML, CSS and JS. We hope that you gonna have some fun!</p>
             <p>There are no any exceptional rules, just try to answer correctly to as many questions you can!</p>
@@ -19,9 +21,9 @@
         </div>
         <div class="registration">
             <label for="player-name" class="player-name-label">What's your name?</label>
-            <input type="text" id="player-name" name="player-name" required>
+            <input type="text" id="player-name" name="player-name" placeholder="Enter your name" class="text-align" required>
         </div>
-        <button href="quiz.html" id="start-quiz">Start!</button>
+        <button type="submit" id="start-quiz">Start!</button>
     </section>
     <script src="assets/js/script.js"></script>
 </body>

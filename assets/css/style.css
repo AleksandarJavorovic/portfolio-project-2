@@ -13,27 +13,30 @@ body {
     background-blend-mode: darken;
 }
 
+/* Class to center the text and white font */
+.text-align {
+    text-align: center;
+    color: #fff;
+}
+
 #main-area {
     max-width: 700px;
     height: 100vh;
     display: flexbox;
     justify-content: center;
-    color: #fff;
     margin: auto;
-    text-align: center;
-    padding: 50px 10px;
+    padding: 15px 10px;
     
 }
 
-#main-area h1 {
+.quiz-name h1 {
     font-size: 3rem;
-    text-align: center;
     margin-bottom: 15px;
+    padding-top: 20px;
 }
 
 #main-area p {
     font-size: 1.5rem;
-    text-align: center;
     padding-bottom: 15px;
     
 }
@@ -47,7 +50,6 @@ body {
     border-radius: 20px;
     margin-top: 15px;
     padding-left: 15px;
-    text-align: center;
 }
 
 #start-quiz {
