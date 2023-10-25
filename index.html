@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>IT-Quiz</title>
 </head>
@@ -21,31 +22,50 @@
             <p>There are no any exceptional rules, just try to answer correctly to as many questions you can!</p>
             <p>Yea, there is a timer to make quiz a lil' more intense. Good Luck! :)</p>
         </div>
-        <div class="registration">
-            <label for="player-name" class="player-name-label">What's your name?</label>
-            <input type="text" id="player-name" name="player-name" placeholder="Enter your name" class="text-align" required>
-        </div>
+        <form id="reg-form" action="" method="POST">
+            <div>
+                <label for="player-name" class="player-name-label">What's your name?</label>
+                <input type="text" id="player-name" name="player-name" placeholder="Enter your name" class="text-align" maxlength="20" required>
+            </div>
+        </form>
         <button type="submit" id="start-quiz">Start!</button>
     </section>
     <!-- Quiz Section -->
-    <section id="quiz-area">
-        <div class="player-score">
-            <p>Player Name: <span id="player-name-status">Alex</span></p>
+    <section id="quiz-area" class="text-align">
+        <div id="player-score">
+            <p>Player Name: <span id="player-name-status"></span></p>
             <p>Correct Answers: <span id="score">0</span></p>
             <p>Wrong Answers: <span id="wrong">0</span></p>
+            <p>Timer: <span id="count-down">0</span></p>
         </div>
         <div id="question-answer-area">
             <div>
-                <p>Question:</p>
+                <p class="question-field">Question: <span>X</span></p>
             </div>
-            <div>
-                <button>Answer 1</button>
-                <button>Answer 2</button>
-                <button>Answer 3</button>
-                <button>Answer 4</button>
+            <div id="answers-container">
+                <div>
+                <button class="btn">Answer 1</button>
+                </div>
+                <div>
+                <button class="btn">Answer 2</button>
+                </div>
+                <div>
+                <button class="btn">Answer 3</button>
+                </div>
+                <div>
+                <button class="btn">Answer 4</button>
+                </div>
             </div>
         </div>
+    </section>
+    <!-- Score Section -->
+    <section id="score-area" class="text-align">
+        <p><span>Name</span>, you answered correctly on <span>x</span> out of <span>y</span> questions. More luck next time!</p>
+        <div>
+            <i class="fa-regular fa-face-smile fa-2xl"></i>
+        </div>
     </section> 
+    <script src="https://kit.fontawesome.com/9ccb4f96a7.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

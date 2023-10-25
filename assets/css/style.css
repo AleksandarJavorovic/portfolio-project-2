@@ -11,6 +11,7 @@ body {
     font-family: 'Rubik', sans-serif;
     background: rgba(0, 0, 0, .5) url("../images/florian-olivo-4hbJ-eymZ1o-unsplash_200.jpg") no-repeat center center/cover;
     background-blend-mode: darken;
+    height: 100vh;
 }
 
 /* Class to center the text and white font */
@@ -21,12 +22,8 @@ body {
 
 #main-area {
     max-width: 700px;
-    height: 100vh;
-    display: flexbox;
-    justify-content: center;
     margin: auto;
-    padding: 15px 10px;
-    
+    padding: 15px 10px; 
 }
 
 .quiz-name {
@@ -41,8 +38,7 @@ body {
 
 #main-area p {
     font-size: 1.5rem;
-    padding-bottom: 15px;
-    
+    padding-bottom: 15px; 
 }
 
 .player-name-label {
@@ -62,6 +58,54 @@ body {
     width: 150px;
     border-radius: 20px;
     margin-top: 15px;
+}
+
+/* Quiz Area */
+#quiz-area {
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+#player-score {
+    margin-bottom: 20px;
+}
+
+#question-answer-area {
+    text-align: center;
+    
+}
+
+#question-answer-area p {
+    margin: auto;
+
+}
+
+#answers-container {
+    display: flexbox;
+    flex-direction: column;    
+}
+
+.btn {
+    font-size: 1.5rem;
+    width: 400px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.question-field {
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 20px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+/* Score Area */
+#score-area {
+    font-size: 2rem;
+    max-width: 700px;
+    margin: auto;
 }
 
 /* For screens up to 420px width */
