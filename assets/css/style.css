@@ -64,11 +64,17 @@ body {
     margin-top: 15px;
 }
 
+.btn-color:hover {
+    background-color: #BD3587;
+    border: solid 3px #ACA980;
+    color: #fff;
+}
+
 /* Quiz Area */
 #quiz-area {
     font-size: 1.5rem;
     max-width: 700px;
-    margin: auto;
+    margin: 20px auto auto auto;
 }
 
 #player-score {
@@ -91,10 +97,11 @@ body {
 }
 
 .btn {
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: 400px;
     margin-top: 15px;
     border-radius: 15px;
+    height: 30px;
 }
 
 .question-field {
