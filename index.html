@@ -32,13 +32,13 @@
                 <label for="player-name" class="player-name-label">What's your name?</label>
                 <input type="text" id="player-name" name="player-name" placeholder="Enter your name" class="text-align" maxlength="20" required>
             </div>
+            <button type="submit" id="start-quiz">Start!</button>
         </form>
-        <button type="submit" id="start-quiz">Start!</button>
     </section>
     <!-- Quiz Section -->
     <section id="quiz-area" class="text-align">
         <div id="player-score">
-            <p>Player Name: <span id="player-name-status"></span></p>
+            <p>Player Name: <span id="player-name-status">x</span></p>
             <p>Correct Answers: <span id="score">0</span></p>
             <p>Wrong Answers: <span id="wrong">0</span></p>
             <p>Timer: <span id="count-down">0</span></p>
