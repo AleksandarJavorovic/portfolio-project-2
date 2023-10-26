@@ -20,6 +20,10 @@ body {
     color: #fff;
 }
 
+.fa-css3 {
+    margin: 0 30px;
+}
+
 #main-area {
     max-width: 700px;
     margin: auto;
@@ -106,6 +110,10 @@ body {
     font-size: 2rem;
     max-width: 700px;
     margin: auto;
+}
+
+#score-area p {
+    margin: 20px 20px;
 }
 
 /* For screens up to 420px width */
