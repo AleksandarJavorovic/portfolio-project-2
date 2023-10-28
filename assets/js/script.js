@@ -7,7 +7,7 @@ function firstLoad() {
 
 firstLoad();
 
-// function to get the name and go to Quiz section;
+// function to get the name and go to Quiz section
 function quizStart(event) {
 
     event.preventDefault();
@@ -161,3 +161,13 @@ const quizQuestions = [
         ]
     },
 ]
+
+// Targeting question, answers and next question elements of HTML
+const quizQuestionElement = document.getElementById('quiz-question');
+const answerButtons = document.getElementById('answers-container');
+const nextQuestionButton = document.getElementById('next-question');
+
+// Defining variables for Question index and correct and incorrect scores
+let correctAnswers = 0;
+let wrongAnswers = 0;
+let quizQuestionIndex = 0;
