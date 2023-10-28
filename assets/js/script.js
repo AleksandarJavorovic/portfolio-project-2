@@ -181,6 +181,8 @@ function startQuestioning() {
 }
 
 function showQuizQuestions() {
+    //Function to hide additional buttons and next button
+    removeButtons();
 
     // Displaying the question in the question field
     let currentQuestion = quizQuestions[quizQuestionIndex];
@@ -193,6 +195,14 @@ function showQuizQuestions() {
         newButton.classList.add('btn', 'btn-color');
         answerButtons.appendChild(newButton);
     });
+}
+
+function removeButtons() {
+    nextQuestionButton.style.display = 'none';
+
+    while(answerButtons.firstChild) {
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
 }
 
 startQuestioning();
