@@ -181,7 +181,7 @@ function startQuestioning() {
 }
 
 function showQuizQuestions() {
-    //Function to hide additional buttons and next button
+
     removeButtons();
 
     // Displaying the question in the question field
@@ -194,10 +194,28 @@ function showQuizQuestions() {
         newButton.innerHTML = answer.text;
         newButton.classList.add('btn', 'btn-color');
         answerButtons.appendChild(newButton);
+        // Adding event listeners for the answer buttons
+        if(answer.correct) {
+            newButton.dataset.correct = answer.correct;
+        }
+        newButton.addEventListener('click', chosenAnswer);
     });
 }
 
+// Function to add color to the Chosen Answer
+function chosenAnswer(event) {
+    const chosenButton = event.target;
+    const answerCorrect = chosenButton.dataset.correct === 'true';
+    if (answerCorrect) {
+        chosenButton.classList.add('correct');
+    } else {
+        chosenButton.classList.add('wrong');
+    }
+}
+
+//Function to hide additional buttons and next button
 function removeButtons() {
+
     nextQuestionButton.style.display = 'none';
 
     while(answerButtons.firstChild) {

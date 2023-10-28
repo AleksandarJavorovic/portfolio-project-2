@@ -121,6 +121,15 @@ body {
     cursor: pointer;
 }
 
+/* Coloring the correct/wrong answer */
+.correct {
+    background-color: rgb(127, 255, 195);
+}
+
+.wrong {
+    background-color: #fcb8e2;
+}
+
 /* Score Area */
 #score-area {
     font-size: 2rem;
