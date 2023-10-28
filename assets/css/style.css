@@ -119,6 +119,7 @@ body {
     margin-top: 20px;
     border-radius: 10px;
     background: #207CAC;
+    font-size: 1rem;
 }
 
 #next-question:hover {

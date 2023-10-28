@@ -163,7 +163,7 @@ const quizQuestions = [
 ]
 
 // Targeting question, answers and next question elements of HTML
-const quizQuestionElement = document.getElementById('quiz-question');
+const quizQuestionField = document.getElementById('quiz-question');
 const answerButtons = document.getElementById('answers-container');
 const nextQuestionButton = document.getElementById('next-question');
 
@@ -172,3 +172,26 @@ let correctAnswers = 0;
 let wrongAnswers = 0;
 let quizQuestionIndex = 0;
 
+// Function to start the quiz when pressed start button
+function startQuestioning() {
+    quizQuestionIndex = 0;
+    correctAnswers = 0;
+    wrongAnswers = 0;
+    showQuizQuestions();
+}
+
+function showQuizQuestions() {
+    // Displaying the question in the question field
+    let currentQuestion = quizQuestions[quizQuestionIndex];
+    quizQuestionField.innerHTML = currentQuestion.question;
+
+    // Displaying answers in the answer buttons
+    currentQuestion.answers.forEach(answer => {
+        const newButton = document.createElement('button');
+        newButton.innerHTML = answer.text;
+        newButton.classList.add('btn', 'btn-color');
+        answerButtons.appendChild(newButton);
+    });
+}
+
+startQuestioning();
