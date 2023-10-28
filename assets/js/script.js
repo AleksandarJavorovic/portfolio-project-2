@@ -171,3 +171,4 @@ const nextQuestionButton = document.getElementById('next-question');
 let correctAnswers = 0;
 let wrongAnswers = 0;
 let quizQuestionIndex = 0;
+
