@@ -23,7 +23,7 @@ function quizStart(event) {
 let regForm = document.getElementById('reg-form');
 regForm.addEventListener('submit', quizStart);
 
-// Quiz Questions
+// Quiz Questions Array
 const quizQuestions = [
     {
         question: 'What does HTML stand for?',
@@ -181,6 +181,7 @@ function startQuestioning() {
 }
 
 function showQuizQuestions() {
+
     // Displaying the question in the question field
     let currentQuestion = quizQuestions[quizQuestionIndex];
     quizQuestionField.innerHTML = currentQuestion.question;

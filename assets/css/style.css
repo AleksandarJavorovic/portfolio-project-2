@@ -87,12 +87,6 @@ body {
 
 #question-answer-area p {
     margin: auto;
-
-}
-
-#answers-container {
-    display: flexbox;
-    flex-direction: column;    
 }
 
 .btn {
