@@ -218,10 +218,9 @@ function chosenAnswer(event) {
         } else {
             newButton.classList.add('wrong');
         }
-
         // Disabling buttons after player chooses the answer
         newButton.setAttribute('disabled', true);
-        // Displaying Next Question Button
+        // Displaying Next Question Button after choosing the answer
         nextQuestionButton.style.display = '';
     })
 
