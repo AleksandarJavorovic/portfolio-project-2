@@ -37,10 +37,10 @@ const quizQuestions = [
     {
         question: 'Which HTML tag is used to create a hyperlink?',
         answers: [
-            { text: '<a>', correct: true },
-            { text: '<h1>', correct: false },
-            { text: '<p>', correct: false },
-            { text: '<hlink>', correct: false },
+            { text: '\< a >', correct: true },
+            { text: '\< h1 \>', correct: false },
+            { text: '\< p \>', correct: false },
+            { text: '\< hlink \>', correct: false },
         ] 
     },
     {
@@ -71,9 +71,9 @@ const quizQuestions = [
         ]  
     },
     {
-        question: 'Which CSS selector targets all <a> elements with a class of "button"?',
+        question: 'Which CSS selector targets all \< a \> elements with a class of "button"?',
         answers: [
-            { text: '.button > a', correct: true },
+            { text: '.button \> a', correct: true },
             { text: 'a.button', correct: false },
             { text: '#button', correct: false },
             { text: '.button a', correct: false },
@@ -107,7 +107,7 @@ const quizQuestions = [
         ] 
     },
     {
-        question: 'What is the purpose of the HTML <meta> tag?',
+        question: 'What is the purpose of the HTML \< meta \> tag?',
         answers: [
             { text: 'To create links to external websites', correct: false },
             { text: 'To define a new metaphysical paragraph', correct: false },
@@ -125,7 +125,7 @@ const quizQuestions = [
         ]
     },
     {
-        question: 'What does the "getElementById" method do in JavaScript?',
+        question: 'What does the getElementById method do in JavaScript?',
         answers: [
             { text: 'Retrieves a list of elements with the given class name', correct: false },
             { text: 'Gets an element by it\'s unique ID', correct: true },
@@ -136,10 +136,10 @@ const quizQuestions = [
     {
         question: 'Which HTML tag is used to create a line break?',
         answers: [
-            { text: '<lb>', correct: false },
-            { text: '<br>', correct: true },
-            { text: '<line>', correct: false },
-            { text: '<newline>', correct: false },
+            { text: '\< lb \>', correct: false },
+            { text: '\< br \>', correct: true },
+            { text: '\< line \>', correct: false },
+            { text: '\< newline \>', correct: false },
         ]
     },
     {

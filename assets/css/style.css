@@ -103,8 +103,10 @@ body {
     margin-bottom: 20px;
     width: 400px;
     border-radius: 10px;
-    height: 50px;
-    padding-top: 10px;
+    height: 80px;
+    padding: 20px;
+    font-size: 1rem;
+    border: solid 3px #BD3587;
 }
 
 #next-question {
