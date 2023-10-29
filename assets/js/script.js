@@ -184,8 +184,8 @@ function showQuizQuestions() {
 
     removeButtons();
 
-    // Displaying the question in the question field
-    let currentQuestion = quizQuestions[quizQuestionIndex];
+    // Displaying random question in the question field
+    const currentQuestion = quizQuestions[Math.floor(Math.random() * quizQuestions.length)];
     quizQuestionField.innerHTML = currentQuestion.question;
 
     // Displaying answers in the answer buttons
