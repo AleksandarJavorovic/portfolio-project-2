@@ -121,13 +121,22 @@ body {
     cursor: pointer;
 }
 
-/* Coloring the correct/wrong answer */
+/* Coloring the correct/wrong answer button */
 .correct {
     background-color: rgb(127, 255, 195);
 }
 
 .wrong {
-    background-color: #fcb8e2;
+    background-color: #fc3ab1e5;
+}
+
+/* Coloring the score status */
+#score {
+    color: rgb(127, 255, 195);
+}
+
+#wrong {
+    color: #fc3ab1e5;
 }
 
 /* Score Area */
