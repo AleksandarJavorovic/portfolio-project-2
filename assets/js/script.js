@@ -202,7 +202,7 @@ function showQuizQuestions() {
     });
 }
 
-// Function to add color to the Chosen Answer
+// Function to add color to the Chosen Answer and wrong ones
 function chosenAnswer(event) {
     const chosenButton = event.target;
     const answerCorrect = chosenButton.dataset.correct === 'true';
@@ -211,6 +211,20 @@ function chosenAnswer(event) {
     } else {
         chosenButton.classList.add('wrong');
     }
+    // Coloring correct answer green and wrong ones pink
+    Array.from(answerButtons.children).forEach(newButton => {
+        if(newButton.dataset.correct === 'true') {
+            newButton.classList.add('correct');
+        } else {
+            newButton.classList.add('wrong');
+        }
+
+        // Disabling buttons after player chooses the answer
+        newButton.setAttribute('disabled', true);
+        // Displaying Next Question Button
+        nextQuestionButton.style.display = '';
+    })
+
 }
 
 //Function to hide additional buttons and next button
