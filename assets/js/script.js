@@ -235,7 +235,7 @@ function chosenAnswer(event) {
 // Adding event listener to the Next Question Button
 nextQuestionButton.addEventListener('click', ()=> {
     if(quizQuestionIndex < 4) {
-        randomQuesiton();
+        nextQuesiton();
         quizQuestionIndex++;
     } else {
         // Displaying of the Score Area with player name, score and play again button
@@ -247,8 +247,8 @@ nextQuestionButton.addEventListener('click', ()=> {
     }
 })
 
-// Function to get random question on Next Question button
-function randomQuesiton() {
+// Function to get next question on Next Question button
+function nextQuesiton() {
     if(quizQuestionIndex < 4) {
         showQuizQuestions();
     }
