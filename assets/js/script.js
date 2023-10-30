@@ -12,7 +12,7 @@ function quizStart(event) {
 
     event.preventDefault();
 
-    let playerName = document.getElementById('player-name');
+    const playerName = document.getElementById('player-name');
 
     document.getElementById('player-name-status').textContent = playerName.value;
 
@@ -232,14 +232,18 @@ function chosenAnswer(event) {
     })
 }
 
+// Adding event listener to the Next Question Button
 nextQuestionButton.addEventListener('click', ()=> {
     if(quizQuestionIndex < 4) {
         randomQuesiton();
         quizQuestionIndex++;
     } else {
+        // Displaying of the Score Area with player name, score and play again button
         document.getElementById('main-area').style.display = 'none';
         document.getElementById('quiz-area').style.display = 'none';
         document.getElementById('score-area').style.display = '';
+        document.getElementById('player-name-score').innerHTML = document.getElementById('player-name').value;
+        document.getElementById('correct-answers-score').innerHTML = document.getElementById('score').innerHTML;
     }
 })
 

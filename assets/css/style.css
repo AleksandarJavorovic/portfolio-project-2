@@ -152,6 +152,10 @@ body {
     margin: 20px 20px;
 }
 
+#correct-answers-score {
+    color: rgb(127, 255, 195);
+}
+
 /* For screens up to 420px width */
 @media screen and (max-width: 420px) {
     /* Ajust size of the input field */
