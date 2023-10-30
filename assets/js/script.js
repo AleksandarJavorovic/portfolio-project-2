@@ -267,6 +267,19 @@ playAgainButton.addEventListener('click', ()=> {
     nextQuestionButton.innerHTML = 'Next Question';
 });
 
+// Adding event listener for New Player button
+newPlayerButton.addEventListener('click', ()=> {
+    // Clear previous player Name
+    document.getElementById('player-name').value = '';
+
+    document.getElementById('score-area').style.display = 'none';
+    document.getElementById('main-area').style.display = '';
+
+    startQuestioning();
+    // Change name of the button back to Next Question
+    nextQuestionButton.innerHTML = 'Next Question';
+});
+
 //Function to hide additional buttons and next button
 function removeButtons() {
 
