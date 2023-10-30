@@ -168,15 +168,15 @@ const answerButtons = document.getElementById('answers-container');
 const nextQuestionButton = document.getElementById('next-question');
 
 // Defining variables for Question index and correct and incorrect scores
-let correctAnswers = 0;
-let wrongAnswers = 0;
+let correctAnswers = document.getElementById('score');
+let wrongAnswers = document.getElementById('wrong-score');
 let quizQuestionIndex = 0;
 
 // Function to start the quiz when pressed start button
 function startQuestioning() {
     quizQuestionIndex = 0;
-    correctAnswers = 0;
-    wrongAnswers = 0;
+    correctAnswers.innerText = 0;
+    wrongAnswers.innerText = 0;
     showQuizQuestions();
 }
 
@@ -208,8 +208,12 @@ function chosenAnswer(event) {
     const answerCorrect = chosenButton.dataset.correct === 'true';
     if (answerCorrect) {
         chosenButton.classList.add('correct');
+        // Inscreasing correct answers
+        correctAnswers.innerText++;
     } else {
         chosenButton.classList.add('wrong');
+        // Increasing wrong answers
+        wrongAnswers.innerText++;
     }
     // Coloring correct answer green and wrong ones pink
     Array.from(answerButtons.children).forEach(newButton => {
