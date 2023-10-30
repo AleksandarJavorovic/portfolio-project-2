@@ -156,6 +156,22 @@ body {
     color: rgb(127, 255, 195);
 }
 
+/* Style for PLay Again and New PLayer buttons */
+#play-again,
+#new-player {
+    width: 100px;
+    height: 50px;
+    margin: 30px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+#play-again:hover,
+#new-player:hover {
+    border: 3px solid #fc3ab1e5;
+    cursor: pointer;
+}
+
+
 /* For screens up to 420px width */
 @media screen and (max-width: 420px) {
     /* Ajust size of the input field */
