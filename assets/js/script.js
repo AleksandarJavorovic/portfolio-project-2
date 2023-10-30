@@ -166,6 +166,8 @@ const quizQuestions = [
 const quizQuestionField = document.getElementById('quiz-question');
 const answerButtons = document.getElementById('answers-container');
 const nextQuestionButton = document.getElementById('next-question');
+const newPlayerButton = document.getElementById('new-player');
+const playAgainButton = document.getElementById('play-again');
 
 // Defining variables for Question index and correct and incorrect scores
 let correctAnswers = document.getElementById('score');
@@ -253,6 +255,17 @@ function nextQuesiton() {
         showQuizQuestions();
     }
 }
+
+// Adding event listener for Play Again Button
+playAgainButton.addEventListener('click', ()=> {
+
+    document.getElementById('quiz-area').style.display = '';
+    document.getElementById('score-area').style.display = 'none';
+
+    startQuestioning();
+    // Change name of the button back to Next Question
+    nextQuestionButton.innerHTML = 'Next Question';
+});
 
 //Function to hide additional buttons and next button
 function removeButtons() {
