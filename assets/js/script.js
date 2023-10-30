@@ -221,9 +221,26 @@ function chosenAnswer(event) {
         // Disabling buttons after player chooses the answer
         newButton.setAttribute('disabled', true);
         // Displaying Next Question Button after choosing the answer
-        nextQuestionButton.style.display = '';
+        nextQuestionButton.style.display = '';  
     })
+}
 
+nextQuestionButton.addEventListener('click', ()=> {
+    if(quizQuestionIndex < 4) {
+        randomQuesiton();
+        quizQuestionIndex++;
+    } else {
+        document.getElementById('main-area').style.display = 'none';
+        document.getElementById('quiz-area').style.display = 'none';
+        document.getElementById('score-area').style.display = '';
+    }
+})
+
+// Function to get random question on Next Question button
+function randomQuesiton() {
+    if(quizQuestionIndex < 4) {
+        showQuizQuestions();
+    }
 }
 
 //Function to hide additional buttons and next button
