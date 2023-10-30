@@ -221,6 +221,9 @@ function chosenAnswer(event) {
         // Disabling buttons after player chooses the answer
         newButton.setAttribute('disabled', true);
         // Displaying Next Question Button after choosing the answer
+        if(quizQuestionIndex == 4) {
+            nextQuestionButton.innerHTML = 'Show Score';
+        }
         nextQuestionButton.style.display = '';  
     })
 }
