@@ -18,6 +18,8 @@ function quizStart(event) {
 
     document.getElementById('main-area').style.display = 'none';
     document.getElementById('quiz-area').style.display = '';
+
+    quizTimer();
 };
 
 let regForm = document.getElementById('reg-form');
@@ -288,6 +290,19 @@ function removeButtons() {
     while(answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
+}
+
+// Timer Function
+function quizTimer() {
+    var startTime = 15;
+    var timer = setInterval(function() {
+        document.getElementById('count-down').innerHTML = startTime;
+        startTime--;
+        if(startTime < 0) {
+            clearInterval(timer);
+        }
+    }, 1000);
+
 }
 
 startQuestioning();
