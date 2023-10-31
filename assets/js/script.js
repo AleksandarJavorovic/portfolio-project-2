@@ -315,7 +315,7 @@ function startTimer() {
         document.getElementById("count-down").style.color = "#fff";
         startTime--;
         if (startTime <= 4) {
-            document.getElementById("count-down").style.color = "#fc3ab1e5";
+            document.getElementById("count-down").style.color = "#f1266ae5";
         }
 
         if(startTime < 0) {

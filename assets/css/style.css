@@ -65,8 +65,9 @@ body {
 }
 
 .btn-color:hover:enabled {
-    border: solid 3px #BD3587;
     cursor: pointer;
+    background-color: #c9f725;
+    transition: 0.6s;
 }
 
 /* Quiz Area */
@@ -106,7 +107,7 @@ body {
     height: 80px;
     padding: 10px;
     font-size: 1rem;
-    border: solid 3px #BD3587;
+    border: solid 3px #3a3a3a;
 }
 
 #next-question {
@@ -119,18 +120,24 @@ body {
 }
 
 #next-question:hover {
-    border: 3px solid #BD3587;
     cursor: pointer;
+    background-color: #c9f725;
+    transition: 0.6s;
 }
 
 /* Coloring the correct/wrong answer button */
 .correct {
     background-color: rgb(127, 255, 195);
 }
+.correct:disabled,
+.wrong:disabled {
+    color: #000;
+}
 
 .wrong {
-    background-color: #fc3ab1e5;
+    background-color: #f1266ae5;
 }
+
 
 /* Coloring the score status */
 #score {
@@ -138,10 +145,10 @@ body {
 }
 
 #wrong-score {
-    color: #fc3ab1e5;
+    color: #f1266ae5;
 }
 
-#count-down {
+#count-down-p {
     font-size: 3rem;
 }
 
@@ -167,12 +174,14 @@ body {
     height: 50px;
     margin: 30px 10px 10px 10px;
     border-radius: 10px;
+    font-size: 1.2rem;
 }
 
 #play-again:hover,
 #new-player:hover {
-    border: 3px solid #BD3587;
     cursor: pointer;
+    background-color: #c9f725;
+    transition: 0.6s;
 }
 
 
