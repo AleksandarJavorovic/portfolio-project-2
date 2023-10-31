@@ -221,9 +221,14 @@ function chosenAnswer(event) {
         wrongAnswers.innerText++;
         stopTimer();
     }
-    // Coloring correct answer green and wrong ones pink
+
+    buttonColors();
+}
+
+// Coloring correct answer green and wrong ones pink simultaneously
+function buttonColors() {
     Array.from(answerButtons.children).forEach(newButton => {
-        if(newButton.dataset.correct === 'true') {
+        if (newButton.dataset.correct === 'true') {
             newButton.classList.add('correct');
         } else {
             newButton.classList.add('wrong');
@@ -231,11 +236,11 @@ function chosenAnswer(event) {
         // Disabling buttons after player chooses the answer
         newButton.setAttribute('disabled', true);
         // Displaying Next Question Button after choosing the answer
-        if(quizQuestionIndex == 4) {
+        if (quizQuestionIndex == 4) {
             nextQuestionButton.innerHTML = 'Show Score';
         }
-        nextQuestionButton.style.display = '';  
-    })
+        nextQuestionButton.style.display = '';
+    });
 }
 
 // Adding event listener to the Next Question Button
@@ -310,6 +315,8 @@ function startTimer() {
         startTime--;
         if(startTime < 0) {
             clearInterval(timer);
+            wrongAnswers.innerText++;
+            buttonColors();
         }
     }, 1000);
 
