@@ -19,7 +19,7 @@ function quizStart(event) {
     document.getElementById('main-area').style.display = 'none';
     document.getElementById('quiz-area').style.display = '';
 
-    quizTimer();
+    startTimer();
 };
 
 let regForm = document.getElementById('reg-form');
@@ -214,10 +214,12 @@ function chosenAnswer(event) {
         chosenButton.classList.add('correct');
         // Inscreasing correct answers
         correctAnswers.innerText++;
+        stopTimer();
     } else {
         chosenButton.classList.add('wrong');
         // Increasing wrong answers
         wrongAnswers.innerText++;
+        stopTimer();
     }
     // Coloring correct answer green and wrong ones pink
     Array.from(answerButtons.children).forEach(newButton => {
@@ -251,6 +253,8 @@ nextQuestionButton.addEventListener('click', ()=> {
     }
 })
 
+nextQuestionButton.addEventListener('click', startTimer);
+
 // Function to get next question on Next Question button
 function nextQuesiton() {
     if(quizQuestionIndex < 4) {
@@ -263,6 +267,9 @@ playAgainButton.addEventListener('click', ()=> {
 
     document.getElementById('quiz-area').style.display = '';
     document.getElementById('score-area').style.display = 'none';
+    
+    stopTimer();
+    startTimer();
 
     startQuestioning();
     // Change name of the button back to Next Question
@@ -271,6 +278,7 @@ playAgainButton.addEventListener('click', ()=> {
 
 // Adding event listener for New Player button
 newPlayerButton.addEventListener('click', ()=> {
+    stopTimer();
     // Clear previous player Name
     document.getElementById('player-name').value = '';
 
@@ -293,9 +301,11 @@ function removeButtons() {
 }
 
 // Timer Function
-function quizTimer() {
+var timer = null;
+
+function startTimer() {
     var startTime = 15;
-    var timer = setInterval(function() {
+    timer = setInterval(function() {
         document.getElementById('count-down').innerHTML = startTime;
         startTime--;
         if(startTime < 0) {
@@ -303,6 +313,11 @@ function quizTimer() {
         }
     }, 1000);
 
+}
+
+function stopTimer() {
+    clearInterval(timer);
+    document.getElementById('count-down').innerHTML = '';
 }
 
 startQuestioning();
