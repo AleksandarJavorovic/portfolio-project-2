@@ -141,6 +141,10 @@ body {
     color: #fc3ab1e5;
 }
 
+#count-down {
+    font-size: 3rem;
+}
+
 /* Score Area */
 #score-area {
     font-size: 2rem;

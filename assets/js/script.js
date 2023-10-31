@@ -312,7 +312,12 @@ function startTimer() {
     var startTime = 15;
     timer = setInterval(function() {
         document.getElementById('count-down').innerHTML = startTime;
+        document.getElementById("count-down").style.color = "#fff";
         startTime--;
+        if (startTime <= 4) {
+            document.getElementById("count-down").style.color = "#fc3ab1e5";
+        }
+
         if(startTime < 0) {
             clearInterval(timer);
             wrongAnswers.innerText++;
