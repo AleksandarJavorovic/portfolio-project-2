@@ -168,11 +168,18 @@ body {
 }
 
 /* Style for Play Again and New Player buttons */
+#play-new-container {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
 #play-again,
 #new-player {
-    width: 100px;
+    width: 150px;
     height: 50px;
-    margin: 30px 10px 10px 10px;
+    margin: 10px;
     border-radius: 10px;
     font-size: 1.2rem;
 }
