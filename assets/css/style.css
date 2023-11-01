@@ -14,6 +14,15 @@ body {
     height: 100vh;
 }
 
+/* Icon Colors */
+.fa-html5 {
+    color: #e34c26;
+}
+
+.fa-square-js {
+    color: #f0db4f;
+}
+
 /* Class to center the text and white font */
 .text-align {
     text-align: center;
@@ -22,6 +31,7 @@ body {
 
 .fa-css3 {
     margin: 0 30px;
+    color: #42a5f5;
 }
 
 #main-area {
@@ -51,7 +61,6 @@ body {
 
 #player-name {
     font-size: 2rem;
-    border-radius: 20px;
     margin-top: 15px;
     padding-left: 15px;
     color: #000;
@@ -60,7 +69,7 @@ body {
 #start-quiz {
     font-size: 2rem;
     width: 150px;
-    border-radius: 10px;
+    height: 50px;
     margin-top: 15px;
 }
 
@@ -94,7 +103,6 @@ body {
     font-size: 1rem;
     width: 400px;
     margin-top: 15px;
-    border-radius: 10px;
     height: 40px;
 }
 
@@ -103,7 +111,6 @@ body {
     color: #000;
     margin-bottom: 20px;
     width: 400px;
-    border-radius: 10px;
     height: 80px;
     padding: 10px;
     font-size: 1rem;
@@ -114,7 +121,6 @@ body {
     height: 50px;
     width: 150px;
     margin-top: 20px;
-    border-radius: 10px;
     background: #fff;
     font-size: 1rem;
 }
@@ -171,7 +177,7 @@ body {
 #play-new-container {
     margin-top: 20px;
     display: flex;
-    flex-flow: row;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -180,7 +186,6 @@ body {
     width: 150px;
     height: 50px;
     margin: 10px;
-    border-radius: 10px;
     font-size: 1.2rem;
 }
 
@@ -189,6 +194,11 @@ body {
     cursor: pointer;
     background-color: #c9f725;
     transition: 0.6s;
+}
+
+/* Smiley Icon */
+.fa-face-smile {
+    color: #c9f725;
 }
 
 
