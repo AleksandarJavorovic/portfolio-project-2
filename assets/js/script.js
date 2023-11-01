@@ -185,7 +185,8 @@ function startQuestioning() {
     quizQuestionIndex = 0;
     correctAnswers.innerText = 0;
     wrongAnswers.innerText = 0;
-    showQuizQuestions();
+    removeButtons();
+    getRandomQuestion();
 }
 
 // Function to get random questions
@@ -210,13 +211,6 @@ function getRandomQuestion() {
     } else {
         getRandomQuestion();
     }
-}
-
-function showQuizQuestions() {
-
-    removeButtons();
-    getRandomQuestion();
-
 }
 
 // Function to add color to the Chosen Answer and wrong ones
@@ -276,7 +270,8 @@ nextQuestionButton.addEventListener('click', startTimer);
 // Function to get next question on Next Question button
 function nextQuesiton() {
     if(quizQuestionIndex < 4) {
-        showQuizQuestions();
+        removeButtons();
+        getRandomQuestion();
     }
 }
 
