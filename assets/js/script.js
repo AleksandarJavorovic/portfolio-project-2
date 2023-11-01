@@ -3,6 +3,9 @@ function firstLoad() {
 
     document.getElementById('quiz-area').style.display = 'none';
     document.getElementById('score-area').style.display = 'none';
+
+    // focusing input field for player name
+    document.getElementById('player-name').focus();
 };
 
 firstLoad();
@@ -284,11 +287,15 @@ playAgainButton.addEventListener('click', ()=> {
 // Adding event listener for New Player button
 newPlayerButton.addEventListener('click', ()=> {
     stopTimer();
-    // Clear previous player Name
-    document.getElementById('player-name').value = '';
 
     document.getElementById('score-area').style.display = 'none';
     document.getElementById('main-area').style.display = '';
+
+    // Clear previous player Name
+    document.getElementById('player-name').value = '';
+
+    // focusing input field for player name
+    document.getElementById('player-name').focus();
 
     startQuestioning();
     // Change name of the button back to Next Question
