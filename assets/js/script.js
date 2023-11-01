@@ -44,7 +44,7 @@ const quizQuestions = [
         answers: [
             { text: '\< a >', correct: true },
             { text: '\< h1 \>', correct: false },
-            { text: '\< p \>', correct: false },
+            { text: '\< s \>', correct: false },
             { text: '\< hlink \>', correct: false },
         ] 
     },
@@ -81,7 +81,7 @@ const quizQuestions = [
             { text: '.button \> a', correct: true },
             { text: 'a.button', correct: false },
             { text: '#button', correct: false },
-            { text: '.button a', correct: false },
+            { text: '.buttona', correct: false },
         ]
     },
     {
@@ -173,6 +173,7 @@ const answerButtons = document.getElementById('answers-container');
 const nextQuestionButton = document.getElementById('next-question');
 const newPlayerButton = document.getElementById('new-player');
 const playAgainButton = document.getElementById('play-again');
+const questionCheckArray = [];
 
 // Defining variables for Question index and correct and incorrect scores
 let correctAnswers = document.getElementById('score');
@@ -187,26 +188,35 @@ function startQuestioning() {
     showQuizQuestions();
 }
 
+// Function to get random questions
+function getRandomQuestion() {
+    const currentQuestion = quizQuestions[Math.floor(Math.random() * quizQuestions.length)];
+    if (!questionCheckArray.includes(currentQuestion)) {
+        questionCheckArray.push(currentQuestion);
+        quizQuestionField.innerHTML = currentQuestion.question;
+
+        // Displaying answers in the answer buttons
+        currentQuestion.answers.forEach(answer => {
+            const newButton = document.createElement('button');
+            newButton.innerHTML = answer.text;
+            newButton.classList.add('btn', 'btn-color');
+            answerButtons.appendChild(newButton);
+            // Adding event listeners for the answer buttons
+            if (answer.correct) {
+                newButton.dataset.correct = answer.correct;
+            }
+            newButton.addEventListener('click', chosenAnswer);
+        });
+    } else {
+        getRandomQuestion();
+    }
+}
+
 function showQuizQuestions() {
 
     removeButtons();
+    getRandomQuestion();
 
-    // Displaying random question in the question field
-    const currentQuestion = quizQuestions[Math.floor(Math.random() * quizQuestions.length)];
-    quizQuestionField.innerHTML = currentQuestion.question;
-
-    // Displaying answers in the answer buttons
-    currentQuestion.answers.forEach(answer => {
-        const newButton = document.createElement('button');
-        newButton.innerHTML = answer.text;
-        newButton.classList.add('btn', 'btn-color');
-        answerButtons.appendChild(newButton);
-        // Adding event listeners for the answer buttons
-        if(answer.correct) {
-            newButton.dataset.correct = answer.correct;
-        }
-        newButton.addEventListener('click', chosenAnswer);
-    });
 }
 
 // Function to add color to the Chosen Answer and wrong ones
@@ -273,6 +283,8 @@ function nextQuesiton() {
 // Adding event listener for Play Again Button
 playAgainButton.addEventListener('click', ()=> {
 
+    questionCheckArray.length = 0;
+
     document.getElementById('quiz-area').style.display = '';
     document.getElementById('score-area').style.display = 'none';
     
@@ -287,6 +299,8 @@ playAgainButton.addEventListener('click', ()=> {
 // Adding event listener for New Player button
 newPlayerButton.addEventListener('click', ()=> {
     stopTimer();
+
+    questionCheckArray.length = 0;
 
     document.getElementById('score-area').style.display = 'none';
     document.getElementById('main-area').style.display = '';
