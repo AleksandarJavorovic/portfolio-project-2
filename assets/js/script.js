@@ -9,6 +9,7 @@ function firstLoad() {
 };
 
 firstLoad();
+const playerNameStatus = document.getElementById('player-name-status');
 
 // function to get the name and go to Quiz section
 function quizStart(event) {
@@ -17,7 +18,7 @@ function quizStart(event) {
 
     const playerName = document.getElementById('player-name');
 
-    document.getElementById('player-name-status').textContent = playerName.value;
+    playerNameStatus.textContent = playerName.value;
 
     document.getElementById('main-area').style.display = 'none';
     document.getElementById('quiz-area').style.display = '';
@@ -261,6 +262,13 @@ nextQuestionButton.addEventListener('click', ()=> {
         document.getElementById('quiz-area').style.display = 'none';
         document.getElementById('score-area').style.display = '';
         
+        if (parseInt(correctAnswers.innerText) > 3) {
+            document.getElementById('score-area-p').innerText = `Well done, you have nailed it! ${playerNameStatus.textContent} you have scored ${correctAnswers.textContent} out of 5!`;
+        } else if (parseInt(correctAnswers.innerText) > 1) {
+            document.getElementById('score-area-p').innerText = `Not bad, but you can do it better! ${playerNameStatus.textContent} you have scored ${correctAnswers.textContent} out of 5!`;
+        } else {
+            document.getElementById('score-area-p').innerText = `Less gaming more learning! ${playerNameStatus.textContent} you have scored ${correctAnswers.textContent} out of 5!`;
+        }
     }
 })
 
