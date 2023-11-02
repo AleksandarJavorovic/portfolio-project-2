@@ -260,8 +260,7 @@ nextQuestionButton.addEventListener('click', ()=> {
         document.getElementById('main-area').style.display = 'none';
         document.getElementById('quiz-area').style.display = 'none';
         document.getElementById('score-area').style.display = '';
-        document.getElementById('player-name-score').innerHTML = document.getElementById('player-name').value;
-        document.getElementById('correct-answers-score').innerHTML = document.getElementById('score').innerHTML;
+        
     }
 })
 
