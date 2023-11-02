@@ -196,6 +196,18 @@ body {
     transition: 0.6s;
 }
 
+/* Footer */
+footer p{
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    position: fixed;
+}
+
 /* For screens up to 420px width */
 @media screen and (max-width: 420px) {
     /* Ajust size of the input field */
