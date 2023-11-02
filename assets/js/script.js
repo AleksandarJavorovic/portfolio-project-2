@@ -266,22 +266,22 @@ nextQuestionButton.addEventListener('click', ()=> {
         // Personalised messages according to the achievement
         if (parseInt(correctAnswers.innerText) > 3) {
             document.getElementById('score-area-p').innerText = `Well done, you have nailed it! ${playerNameStatus.textContent} you have scored ${correctAnswers.textContent} out of 5!`;
-            document.getElementById('smiley').style.display = '';
             document.getElementById('smiley').style.color = '#7fffc3';
+            document.getElementById('smiley').style.display = '';
             document.getElementById('meh').style.display = 'none';
             document.getElementById('frown').style.display = 'none';
         } else if (parseInt(correctAnswers.innerText) > 1) {
             document.getElementById('score-area-p').innerText = `Not bad, but you can do it better! ${playerNameStatus.textContent} you have scored ${correctAnswers.textContent} out of 5!`;
             document.getElementById('smiley').style.display = 'none';
-            document.getElementById('meh').style.display = '';
             document.getElementById('meh').style.color = '#e34c26';
+            document.getElementById('meh').style.display = '';
             document.getElementById('frown').style.display = 'none';
         } else {
             document.getElementById('score-area-p').innerText = `Less gaming more learning! ${playerNameStatus.textContent} you have scored ${correctAnswers.textContent} out of 5!`;
             document.getElementById('smiley').style.display = 'none';
             document.getElementById('meh').style.display = 'none';
-            document.getElementById('frown').style.display = '';
             document.getElementById('frown').style.color = '#f1266ae5';
+            document.getElementById('frown').style.display = '';
         }
     }
 })
