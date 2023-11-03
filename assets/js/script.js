@@ -277,7 +277,7 @@ nextQuestionButton.addEventListener('click', ()=> {
             document.getElementById('meh').style.display = '';
             document.getElementById('frown').style.display = 'none';
         } else {
-            document.getElementById('score-area-p').innerText = `Less gaming more learning! ${playerNameStatus.textContent} you have scored ${correctAnswers.textContent} out of 5!`;
+            document.getElementById('score-area-p').innerText = `Looks like you need to spend more time learning! ${playerNameStatus.textContent} you have scored ${correctAnswers.textContent} out of 5!`;
             document.getElementById('smiley').style.display = 'none';
             document.getElementById('meh').style.display = 'none';
             document.getElementById('frown').style.color = '#f1266ae5';
