@@ -273,14 +273,14 @@ nextQuestionButton.addEventListener('click', ()=> {
         } else if (parseInt(correctAnswers.innerText) > 1) {
             document.getElementById('score-area-p').innerText = `Not bad, but you can do it better! ${playerNameStatus.textContent} you have scored ${correctAnswers.textContent} out of 5!`;
             document.getElementById('smiley').style.display = 'none';
-            document.getElementById('meh').style.color = '#e34c26';
+            document.getElementById('meh').style.color = '#EA795D';
             document.getElementById('meh').style.display = '';
             document.getElementById('frown').style.display = 'none';
         } else {
             document.getElementById('score-area-p').innerText = `Looks like you need to spend more time learning! ${playerNameStatus.textContent} you have scored ${correctAnswers.textContent} out of 5!`;
             document.getElementById('smiley').style.display = 'none';
             document.getElementById('meh').style.display = 'none';
-            document.getElementById('frown').style.color = '#f1266ae5';
+            document.getElementById('frown').style.color = '#F96294';
             document.getElementById('frown').style.display = '';
         }
     }
