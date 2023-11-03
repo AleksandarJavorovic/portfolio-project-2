@@ -6,7 +6,7 @@ function firstLoad() {
 
     // focusing input field for player name
     document.getElementById('player-name').focus();
-};
+}
 
 firstLoad();
 
@@ -25,7 +25,7 @@ function quizStart(event) {
     document.getElementById('quiz-area').style.display = '';
 
     startTimer();
-};
+}
 
 let regForm = document.getElementById('reg-form');
 regForm.addEventListener('submit', quizStart);
@@ -167,7 +167,7 @@ const quizQuestions = [
             { text: 'Error', correct: false },
         ]
     },
-]
+];
 
 // Targeting question, answers and next question elements of HTML
 const quizQuestionField = document.getElementById('quiz-question');
@@ -284,7 +284,7 @@ nextQuestionButton.addEventListener('click', ()=> {
             document.getElementById('frown').style.display = '';
         }
     }
-})
+});
 
 nextQuestionButton.addEventListener('click', startTimer);
 
