@@ -40,10 +40,6 @@ body {
     padding: 15px 10px; 
 }
 
-.quiz-name {
-    margin-top: 50px;
-}
-
 .quiz-name h1 {
     font-size: 3rem;
     margin-bottom: 15px;
@@ -52,7 +48,7 @@ body {
 
 #main-area p {
     font-size: 1.5rem;
-    padding-bottom: 15px; 
+    padding-bottom: 5px; 
 }
 
 .player-name-label {
@@ -71,6 +67,7 @@ body {
     width: 150px;
     height: 50px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .btn-color:hover:enabled {
@@ -83,11 +80,7 @@ body {
 #quiz-area {
     font-size: 1.5rem;
     max-width: 700px;
-    margin: 20px auto auto auto;
-}
-
-#player-score {
-    margin-bottom: 20px;
+    margin: 10px auto auto auto;
 }
 
 #question-answer-area {
@@ -120,7 +113,7 @@ body {
 #next-question {
     height: 50px;
     width: 150px;
-    margin-top: 20px;
+    margin-top: 10px;
     background: #fff;
     font-size: 1rem;
 }
