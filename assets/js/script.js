@@ -110,11 +110,11 @@ const quizQuestions = [
             { text: 'new', correct: false },
             { text: 'declare_variable', correct: false },
             { text: 'var', correct: true },
-            { text: 'print.var', correct: false },
+            { text: 'variabella', correct: false },
         ] 
     },
     {
-        question: 'What is the purpose of the HTML \< meta \> tag?',
+        question: 'What is the HTML \< meta \> tags purpose?',
         answers: [
             { text: 'To create links to external websites', correct: false },
             { text: 'To define a new metaphysical paragraph', correct: false },
