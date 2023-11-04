@@ -79,4 +79,19 @@ The buttons are designed so that it is easily understandable what do they presen
   - Give the player option to play again or change the name if desired
   - Main goal is to offer some fun and education
 
-  
+### **Design**
+
+- **Typography**
+
+  - The fonts used are Rubik and sans-serif as a backup font in case there are issues related to importing.
+
+- **Imagery**
+
+  - The background image used presents clearly the theme of the quiz, which is coding in general.
+
+- **Color Scheme**
+
+  - The colors dominating throughout the quiz are presented under:
+
+  - ![Color Scheme](assets/images/color-schemes//color-scheme.png)
+  - ![Color Scheme](assets/images/color-schemes//color-scheme1.png)
