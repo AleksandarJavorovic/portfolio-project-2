@@ -167,3 +167,89 @@ The buttons are designed so that it is easily understandable what do they presen
 
 ## <a id="features-aa"></a>**Features**
 
+The IT-Quiz is designed according to responsive-design and UX-design approach to fit the needs of the most users nowdays. The whole site has only one page with multiple sections show/hiden as needed.
+
+### **Main Area**
+
+Main area is sort of a home page, the content user sees first, when he lands on the site. Starting with header, then comes intro paragraph, rules and after that comes section to input the name of the player.
+
+  - Mobile Phone
+  - ![Main Area Mobile](assets/images/features/main-area-mobile.png)
+
+  - Desktop
+  - ![Main Area Desktop](assets/images/features/main-area.png)
+
+### **Heading**
+
+Heading together with the icons persist throughout the site. As already mentioned clearly indicating the theme of the quiz.
+
+- ![Heading](assets/images/features/heading-icons.png)
+
+### **Intro**
+
+Intro paragraph telling the user what can be expected.
+
+- ![Intro](assets/images/features/heading-intro-icons.png)
+
+### **Rules**
+
+The rules are simple as can be seen at the screenshot under:
+
+- ![Rules](assets/images/features/rules.png)
+
+### **Username Input**
+
+This part is also easy understandable, you need to enter your name in the filed intended for it. The field is also prepopulated with placeholder telling you to enter your name.
+
+- ![Username Input](assets/images/features/usename-input.png)
+
+Some of the additional features, accomplished via html element properties are:
+  - Your name can't be less than 2  or more than 20 characters long.
+
+  - ![Too Short Username](assets/images/features/too-short-username.png)
+
+  - You can't play without an username.
+
+  - ![No Username](assets/images/features/no-username.png)
+
+### **Start Button**
+
+After entering your name, start button takes you to the Quiz Area and starts the Quiz!
+
+- ![Start Button](assets/images/features/start-button.png)
+
+### **Quiz Area**
+
+As Start button is pressed Main Area is getting hidden and Quiz Area shows up. Here we have section with the Player Name, under that we have Correct and Wrong answers counters. Right under comes Timer and then section with question and 4 answers. Next Question button is hidden until the player answers the question.
+
+  - Mobile Phone
+
+  - ![Quiz Area Mobile](assets/images/features/quiz-area-mobile.png)
+
+  - Desktop
+
+  - ![Quiz Area Desktop](assets/images/features/quiz-area.png)
+
+### **Player Name, Correct and Wrong Answers**
+
+This is section wich containes the player name and counters for Correct and Wrong answers colored accordingly for easier perception.
+
+- ![Player Name, Correct and Wrong Answers](assets/images/features/player-score-status.png)
+
+### **Timer**
+
+Timer is here to make this quiz a little more intense, counting down from 15. When the Timer hits 5th sec, font changes color indicating that player is about to run out of time. If the Timer runs out, it is counted as Wrong Answer.
+
+- ![Timer Low](assets/images/features/timer-low.png)
+
+### **Questions/Answers Section**
+
+The question and answers fields are white with a hover effect which changes color to lime and a pointer type cursor for a better UX. After the player answers the question or the Timer runs up, answers are getting colored accordingly and Next Question button is displayed. We are getting total of 5 questions we need to answer to get to the end of the quiz.
+
+- ![Questions/Answers Section](assets/images/features/quiz-area-answered.png)
+
+### **Show Score Button**
+
+After the player gives the answer to the 5th question, Next Question button will appear but as a Show Score button, which will take us to the Score Area.
+
+- ![Show Score](assets/images/features/show-score-button.png)
