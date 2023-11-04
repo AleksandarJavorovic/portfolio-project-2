@@ -54,3 +54,29 @@ Under the intro, there are few lines of simple rules describing how it's going t
 Right under the rules is the input field to enter the players name with a clear question:"What's your name?" and placeholder:"Enter your name". The input field is prefocused, making it even easier for the player without need to click it first to be able to enter the name.
 
 The buttons are designed so that it is easily understandable what do they present and what are their functions. Appropriate styles and colors are used to make it even clearer.
+
+### **User Stories**
+
+- **User/Player goals**
+
+  - Be able to play fun/educative quiz
+  - Be able to understand the rules of the quiz
+  - Be able to enter the name
+  - Be able to track my progress
+  - Be able to see how much time is left to answer given question
+  - Be able to see correct and incorrect answers
+  - Be able to see my final score
+  - Be able to play again or change user name in case there is more of us
+
+- **Creator goals**
+
+  - Present the content in a easy manner
+  - Rules are easily understandable
+  - Clear indication about time left to give answer
+  - Clear indication about correct/incorrect asnwers
+  - Clear presentation of current score
+  - Let the player know how well they performed
+  - Give the player option to play again or change the name if desired
+  - Main goal is to offer some fun and education
+
+  
