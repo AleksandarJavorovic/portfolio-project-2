@@ -238,7 +238,7 @@ This is section wich containes the player name and counters for Correct and Wron
 
 ### **Timer**
 
-Timer is here to make this quiz a little more intense, counting down from 15. When the Timer hits 5th sec, font changes color indicating that player is about to run out of time. If the Timer runs out, it is counted as Wrong Answer.
+Timer is here to make this quiz a little more intense, counting down from 15. When the Timer hits 5th sec, font changes color indicating that player is about to run out of time. If the Timer runs out, it is counted as Wrong Answer. The Timer gets reseted after the Next Question Button is pressed.
 
 - ![Timer Low](assets/images/features/timer-low.png)
 
@@ -246,10 +246,43 @@ Timer is here to make this quiz a little more intense, counting down from 15. Wh
 
 The question and answers fields are white with a hover effect which changes color to lime and a pointer type cursor for a better UX. After the player answers the question or the Timer runs up, answers are getting colored accordingly and Next Question button is displayed. We are getting total of 5 questions we need to answer to get to the end of the quiz.
 
-- ![Questions/Answers Section](assets/images/features/quiz-area-answered.png)
+- Before the Answer
+
+- ![Questions/Answers Section Before](assets/images/features/hover-efect-button.png)
+
+- After the Answer
+
+- ![Questions/Answers Section After](assets/images/features/quiz-area-answered.png)
 
 ### **Show Score Button**
 
 After the player gives the answer to the 5th question, Next Question button will appear but as a Show Score button, which will take us to the Score Area.
 
 - ![Show Score](assets/images/features/show-score-button.png)
+
+### **Score Area**
+
+Score area will show a message and smiley icon according to the performance of the player. Under the smiley icon are Play Again and New Player buttons.
+
+  - Mobile Phone
+
+  - ![Score Area Mobile](assets/images/features/score-area-mobile.png)
+
+  - Desktop
+
+    - Excellent Score
+    - ![Score Area Desktop Excellent](assets/images/features/score-area-high.png)
+
+    - Very Good Score
+
+    - ![Score Area Desktop Very Good](assets/images/features/score-area-middle.png)
+
+    - Low Score
+
+    - ![Score Area Desktop Low](assets/images/features/score-area-low.png)
+
+### **Play Again/New Player Button**
+
+Play Again button allows the player to play again if desired, takes the player to the Quiz Area and resets the score. New Player button is there if the player wants to change the name for any reason, it takes the player to the Main Area.
+
+- ![Play Again and New Player Button](assets/images/features/playagain-newplayer-button.png)
