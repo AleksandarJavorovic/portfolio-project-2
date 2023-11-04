@@ -18,9 +18,21 @@ This quiz is for everyone who wants to test own knowledge about basics of HTML, 
 
 ### [**Features**](#features-aa)
 
-- [Index Page](#index-page)
-- [Footer](#footer)
+- [Main Area](#main-area)
+- [Heading](#heading)
+- [Intro](#intro)
+- [Rules](#rules)
+- [Username Input](#username-input)
+- [Start Button](#start-button)
+- [Quiz Area](#quiz-area)
+- [Player Name, Correct and Wrong Answers](#player-name-correct-and-wrong-answers)
+- [Timer](#timer)
+- [Questions/Answers Section](#questionsanswers-section)
+- [Show Score Button](#show-score-button)
+- [Score Area](#score-area)
+- [Play Again/New Player Button](#play-againnew-player-button)
 - [Further Improvements](#further-improvements)
+
 
 ### [**Technologies Used**](#technologies-used-aa)
 
@@ -66,11 +78,11 @@ The buttons are designed so that it is easily understandable what do they presen
   - Be able to see how much time is left to answer given question
   - Be able to see correct and incorrect answers
   - Be able to see my final score
-  - Be able to play again or change user name in case there is more of us
+  - Be able to play again or change user name for any reason
 
 - **Creator goals**
 
-  - Present the content in a easy manner
+  - Present the content in a understandable manner
   - Rules are easily understandable
   - Clear indication about time left to give answer
   - Clear indication about correct/incorrect asnwers
@@ -286,3 +298,12 @@ Score area will show a message and smiley icon according to the performance of t
 Play Again button allows the player to play again if desired, takes the player to the Quiz Area and resets the score. New Player button is there if the player wants to change the name for any reason, it takes the player to the Main Area.
 
 - ![Play Again and New Player Button](assets/images/features/playagain-newplayer-button.png)
+
+### **Further Improvements**
+
+  - Add more questions for more diversity
+  - Add sound effects for correct and wrong answers
+  - Add sound effect for the Score Area according to the results
+  - Add a score list where players could compare themself with the others
+
+## <a id="technologies-used-aa"></a>**Technologies Used**
