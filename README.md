@@ -164,3 +164,6 @@ The buttons are designed so that it is easily understandable what do they presen
 
   ![Wireframe Score Section Desktop](/assets/images/wireframes/wireframes-desktop-score-section.png)
   </details>
+
+## <a id="features-aa"></a>**Features**
+
