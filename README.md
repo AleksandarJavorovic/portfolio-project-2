@@ -95,3 +95,72 @@ The buttons are designed so that it is easily understandable what do they presen
 
   - ![Color Scheme](assets/images/color-schemes//color-scheme.png)
   - ![Color Scheme](assets/images/color-schemes//color-scheme1.png)
+
+### **Wireframes**
+
+- **Mobile Phone**
+  <details>
+  <summary>main-section
+  </summary>
+
+  ![Wireframe Main Section Mobile](/assets/images/wireframes/wireframes-mobile-main-section.png)
+  </details>
+
+  <details>
+  <summary>quiz-section
+  </summary>
+
+  ![Wireframe Quiz Section Mobile](/assets/images/wireframes/wireframe-mobile-quiz-section.png)
+  </details>
+
+  <details>
+  <summary>score-section
+  </summary>
+
+  ![Wireframe Score Section Mobile](/assets/images/wireframes/wireframe-mobile-score-section.png)
+  </details>
+
+- **Tablet**
+  <details>
+  <summary>main-section
+  </summary>
+
+  ![Wireframe Main Section Tablet](/assets/images/wireframes/wireframes-tablet-main-section.png)
+  </details>
+
+  <details>
+  <summary>quiz-section
+  </summary>
+
+  ![Wireframe Quiz Section Tablet](/assets/images/wireframes/wireframes-tablet-quiz-section.png)
+  </details>
+
+  <details>
+  <summary>score-section
+  </summary>
+
+  ![Wireframe Score Section Tablet](/assets/images/wireframes/wireframes-tablet-score-section.png)
+  </details>
+
+- **Desktop**
+
+  <details>
+  <summary>main-section
+  </summary>
+
+  ![Wireframe Main Section Desktop](/assets/images/wireframes/wireframes-desktop-main-section.png)
+  </details>
+
+  <details>
+  <summary>quiz-section
+  </summary>
+
+  ![Wireframe Quiz Section Desktop](/assets/images/wireframes/wireframes-desktop-quiz-section.png)
+  </details>
+
+  <details>
+  <summary>score-section
+  </summary>
+
+  ![Wireframe Score Section Desktop](/assets/images/wireframes/wireframes-desktop-score-section.png)
+  </details>
