@@ -320,3 +320,24 @@ Copyright details
   - CSS
   - HTML
   - JavaScript
+
+### **Frameworks, Libraries and Programs Used**
+
+1. [Google Fonts](https://fonts.google.com/)
+   - Used to import "Rubik" font.
+2. [Font Awesome](https://fontawesome.com/)
+   - Used to add icons for UX and aesthetic purposes.
+3. [Favicon.io](https://favicon.io/)
+   - Used to create favicon for the website.
+4. [Git](https://git-scm.com/)
+   - Used for version control, commit to Git and Push to GitHub.
+5. [GitHub](https://github.com/)
+   - Used to store the code online and for deployment.
+6. [Balsamiq](https://balsamiq.com/)
+   - Used to create frames for the site in the designing process.
+7. [Am I Responsive](https://ui.dev/amiresponsive)
+   - Used to create mockup image for the README file.
+8. [Codeanywhere](https://codeanywhere.com/)
+   - Used for development as a cloud IDE
+9. [Gitpod](https://www.gitpod.io/)
+   - Used for development as a cloud IDE
