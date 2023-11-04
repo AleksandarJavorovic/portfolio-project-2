@@ -31,6 +31,7 @@ This quiz is for everyone who wants to test own knowledge about basics of HTML, 
 - [Show Score Button](#show-score-button)
 - [Score Area](#score-area)
 - [Play Again/New Player Button](#play-againnew-player-button)
+- [Footer](#footer)
 - [Further Improvements](#further-improvements)
 
 
@@ -299,6 +300,12 @@ Play Again button allows the player to play again if desired, takes the player t
 
 - ![Play Again and New Player Button](assets/images/features/playagain-newplayer-button.png)
 
+### **Footer**
+
+Copyright details
+
+- ![Footer](assets/images/features/footer.png)
+
 ### **Further Improvements**
 
   - Add more questions for more diversity
@@ -307,3 +314,9 @@ Play Again button allows the player to play again if desired, takes the player t
   - Add a score list where players could compare themself with the others
 
 ## <a id="technologies-used-aa"></a>**Technologies Used**
+
+### **Languages Used**
+
+  - CSS
+  - HTML
+  - JavaScript
