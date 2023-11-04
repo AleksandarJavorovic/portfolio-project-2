@@ -46,3 +46,11 @@ This quiz is for everyone who wants to test own knowledge about basics of HTML, 
 - [Media](#media)
 
 ## <a id="user-experience-ux-aa"></a>**User Experience (UX)**
+
+The title/heading of the site and icons of HTML, CSS and JavaScript indicate what the user/player can expact from the quiz itself.
+
+Under the intro, there are few lines of simple rules describing how it's going to work and what to pay attention to.
+
+Right under the rules is the input field to enter the players name with a clear question:"What's your name?" and placeholder:"Enter your name". The input field is prefocused, making it even easier for the player without need to click it first to be able to enter the name.
+
+The buttons are designed so that it is easily understandable what do they present and what are their functions. Appropriate styles and colors are used to make it even clearer.
