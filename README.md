@@ -431,7 +431,23 @@ The W3C Markup Validator, W3C CSS Validator Services as well as JShint were used
 
 ### **Fixed Bugs**
 
-- aaa
+- There was a "invisible" paragraph which was causing extra spacing between paragraphs. Later I've found that one of the paragraphs was missing a closing tag.
+
+  <details>
+  <summary>Invisible paragraph
+  </summary>
+  
+  ![Invisible Paragraph](/assets/images/bugs/bugg-2.png)
+  </details>
+
+- In this case something was pushing New Player button down a little bit. This was sorted out using flex-box properties.
+
+  <details>
+  <summary>Unordered buttons
+  </summary>
+  
+  ![HTML file validation](/assets/images/bugs/bugg-1.png)
+  </details>
 
 ### **Known Bugs**
 
