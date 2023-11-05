@@ -129,6 +129,7 @@ body {
 /* Coloring the correct/wrong answer button */
 .correct {
     background-color: rgb(127, 255, 195);
+    transition: 1s;
 }
 .correct:disabled,
 .wrong:disabled {
@@ -137,6 +138,7 @@ body {
 
 .wrong {
     background-color: #F96294;
+    transition: 1s;
 }
 
 
