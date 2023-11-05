@@ -397,15 +397,15 @@ The W3C Markup Validator, W3C CSS Validator Services as well as JShint were used
 
 | Feature  | Action/State | Result |
 | ------------- | ------------- |-------------|
-| Start Button | Click | Not possible without a name |
+| Start Button | Click | Not possible to start without a name |
 | Start Button | Click | Possible with a username between 2 and 20 characters long |
 | Start Button | Click | Button displays Quiz Area and hides Main Area |
-| Start Button | Click | Starts the Timer and displays the questions |
+| Start Button | Click | Starts the Timer and displays the questions and answers |
 | Timer | Out of time | Increases Wrong Asnwers status |
 | Timer | Out of time | Displays the correct and wrong answers colors |
 | Timer | Out of time | Disables the answer buttons to prevent multiple answers |
 | Timer | Out of time | Displays Next Question button / Show Score button |
-| Answer Button | Click | Colors the button |
+| Answer Button | Click | Colors the answer buttons accordingly |
 | Answer Button | Click | Increases Correct or Wrong Answers status |
 | Answer Button | Click | Disables the answer buttons to prevent multiple answers |
 | Answer Button | Click | Stops the timer if there is any time left |
