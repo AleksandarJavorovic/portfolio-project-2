@@ -451,7 +451,30 @@ The W3C Markup Validator, W3C CSS Validator Services as well as JShint were used
 
 ### **Known Bugs**
 
-- 
+- For the displays smaller than 280px in width, the responsiveness is not the best.
+
+- Weird behavior of styles while using Iphone (tested on Iphone14plus and IphoneX). All the buttons have rounded corners until the question is answered. Also Start button, Next Question button, Play Again and New Player buttons have strange styles not present in my code.
+
+  <details>
+  <summary>exemple 1
+  </summary>
+  
+  ![exemple 1](/assets/images/bugs/exemple-1.jpg)
+  </details>
+
+  <details>
+  <summary>exemple 2
+  </summary>
+  
+  ![exemple 2](/assets/images/bugs/exemple-2.jpg)
+  </details>
+
+  <details>
+  <summary>exemple 3
+  </summary>
+  
+  ![exemple 3](/assets/images/bugs/exemple-3.jpg)
+  </details>
 
 ## <a id="deployment-and-local-development-aa"></a>**Deployment and local development**
 
