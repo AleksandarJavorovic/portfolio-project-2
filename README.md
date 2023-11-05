@@ -392,3 +392,34 @@ The W3C Markup Validator, W3C CSS Validator Services as well as JShint were used
   
 ![Home Page Analysis](/assets/images/test-images/lighthouse-desktop.png)
 </details>
+
+### **Manual Testing**
+
+| Feature  | Action/State | Result |
+| ------------- | ------------- |-------------|
+| Start Button | Click | Not possible without a name |
+| Start Button | Click | Possible with a username between 2 and 20 characters long |
+| Start Button | Click | Button displays Quiz Area and hides Main Area |
+| Start Button | Click | Starts the Timer and displays the questions |
+| Timer | Out of time | Increases Wrong Asnwers status |
+| Timer | Out of time | Displays the correct and wrong answers colors |
+| Timer | Out of time | Disables the answer buttons to prevent multiple answers |
+| Timer | Out of time | Displays Next Question button / Show Score button |
+| Answer Button | Click | Colors the button |
+| Answer Button | Click | Increases Correct or Wrong Answers status |
+| Answer Button | Click | Disables the answer buttons to prevent multiple answers |
+| Answer Button | Click | Stops the timer if there is any time left |
+| Answer Button | Click | Displays Next Question button / Show Score button |
+| Next Question button | Click | Resets the Timer |
+| Next Question button | Click | Displays next question and answers in their fields |
+| Next Question button | Click | The button itself gets hidden |
+| Show Score button | Click | Displays the Score Area and hides the Quiz Area |
+| Show Score button | Click | Displays the message according to the score of the player |
+| Show Score button | Click | Displays Play Again and New Player buttons |
+| Play Again Button | Click | Displays the Quiz Area and hides the Score Area |
+| Play Again Button | Click | Resets the score status and Timer |
+| Play Again Button | Click | Displays quesiton and answers in their fields |
+| New Player button | Click | Displays the Main Area and hides the Score Area |
+| New Player Button | Click | Resets the username input field |
+| All Buttons | Hover | Button color changes to Lime and cursor to pointer style |
+
