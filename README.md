@@ -410,16 +410,21 @@ The W3C Markup Validator, W3C CSS Validator Services as well as JShint were used
 | Answer Button | Click | Disables the answer buttons to prevent multiple answers |
 | Answer Button | Click | Stops the timer if there is any time left |
 | Answer Button | Click | Displays Next Question button / Show Score button |
-| Next Question button | Click | Resets the Timer |
-| Next Question button | Click | Displays next question and answers in their fields |
-| Next Question button | Click | The button itself gets hidden |
+| Next Question Button | Click | Resets the Timer |
+| Next Question Button | Click | Displays next question and answers in their fields |
+| Next Question Button | Click | The button itself gets hidden |
 | Show Score button | Click | Displays the Score Area and hides the Quiz Area |
-| Show Score button | Click | Displays the message according to the score of the player |
-| Show Score button | Click | Displays Play Again and New Player buttons |
+| Show Score Button | Click | Displays the message according to the score of the player |
+| Show Score Button | Click | Displays Play Again and New Player buttons |
 | Play Again Button | Click | Displays the Quiz Area and hides the Score Area |
 | Play Again Button | Click | Resets the score status and Timer |
 | Play Again Button | Click | Displays quesiton and answers in their fields |
-| New Player button | Click | Displays the Main Area and hides the Score Area |
+| New Player Button | Click | Displays the Main Area and hides the Score Area |
 | New Player Button | Click | Resets the username input field |
 | All Buttons | Hover | Button color changes to Lime and cursor to pointer style |
 
+#### **Further Manual Testing**
+
+- The site was tested on variaty of browsers such as: [Brave](https://brave.com/), [Microsoft Edge](https://www.microsoft.com/en-us/edge?ep=82&form=MA13KI&es=24&ch=1), [Opera GX](https://www.opera.com/gx) and [Safari](https://www.apple.com/safari/).
+- The site was tested on many devices: Desktop PC, Laptop, Xiaomi12T, Iphone14, IphoneX. Thanks to responsive design approach the site looks good on all devices(except certain bugs on Iphones).
+- Family members/friends were asked kindly to try out the site for additional feedback.
