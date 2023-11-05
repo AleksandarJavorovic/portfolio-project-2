@@ -341,3 +341,54 @@ Copyright details
    - Used for development as a cloud IDE
 9. [Gitpod](https://www.gitpod.io/)
    - Used for development as a cloud IDE
+
+## <a id="testing-aa"></a>**Testing**
+
+The W3C Markup Validator, W3C CSS Validator Services as well as JShint were used to validate the project to ensure there were no syntax errors in the project.
+
+- [W3C Markup Validator](https://validator.w3.org/)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [JShint](https://jshint.com/)
+
+### **Validation Results**
+
+  <details>
+  <summary>W3C-HTML
+  </summary>
+  
+  ![HTML file validation](/assets/images/test-images/w3c-html-validation.png)
+  </details>
+
+  <details>
+  <summary>W3C-Jigsaw-CSS
+  </summary>
+  
+  ![CSS file validation](/assets/images/test-images/jigsaw-css-validation.png)
+  </details>
+
+  <details>
+  <summary>JShint
+  </summary>
+  
+  ![JS file validation](/assets/images/test-images/jshint-validation.png)
+  </details>
+
+### **Lighthouse Reports**
+
+#### **Mobile Analysis**
+
+<details>
+<summary>index.html
+</summary>
+  
+![Home Page Mobile Analysis](/assets/images/test-images/lighthouse-mobile.png)
+</details>
+
+#### **Desktop Analysis**
+
+<details>
+<summary>index.html
+</summary>
+  
+![Home Page Analysis](/assets/images/test-images/lighthouse-desktop.png)
+</details>
