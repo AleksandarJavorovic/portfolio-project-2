@@ -350,7 +350,7 @@ function startTimer() {
     timer = setInterval(function() {
         document.getElementById('count-down').innerHTML = startTime;
         document.getElementById("count-down").style.color = "#fff";
-        startTime;
+        startTime--;
         if (startTime <= 4) {
             document.getElementById("count-down").style.color = "#f1266ae5";
         }

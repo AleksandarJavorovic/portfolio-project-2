@@ -70,6 +70,7 @@ body {
     margin-bottom: 15px;
 }
 
+/* Coloring of the buttons on hover */
 .btn-color:hover:enabled {
     cursor: pointer;
     background-color: #c9f725;
