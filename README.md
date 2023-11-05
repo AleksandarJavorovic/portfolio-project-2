@@ -451,7 +451,7 @@ The W3C Markup Validator, W3C CSS Validator Services as well as JShint were used
 
 ### **Known Bugs**
 
-- aaa
+- 
 
 ## <a id="deployment-and-local-development-aa"></a>**Deployment and local development**
 
