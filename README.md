@@ -43,10 +43,10 @@ This quiz is for everyone who wants to test own knowledge about basics of HTML, 
 ### [**Testing**](#testing-aa)
 
 - [Validation Results](#validation-results)
+- [Lighthouse Reports](#lighthouse-reports)
 - [Manual Testing](#manual-testing)
 - [Fixed Bugs](#fixed-bugs)
 - [Knows Bugs](#known-bugs)
-- [Lighthouse Reports](#lighthouse-reports)
 
 ### [**Deployment and local development**](#deployment-and-local-development-aa)
 
@@ -428,3 +428,29 @@ The W3C Markup Validator, W3C CSS Validator Services as well as JShint were used
 - The site was tested on variaty of browsers such as: [Brave](https://brave.com/), [Microsoft Edge](https://www.microsoft.com/en-us/edge?ep=82&form=MA13KI&es=24&ch=1), [Opera GX](https://www.opera.com/gx) and [Safari](https://www.apple.com/safari/).
 - The site was tested on many devices: Desktop PC, Laptop, Xiaomi12T, Iphone14, IphoneX. Thanks to responsive design approach the site looks good on all devices(except certain bugs on Iphones).
 - Family members/friends were asked kindly to try out the site for additional feedback.
+
+### **Fixed Bugs**
+
+- aaa
+
+### **Known Bugs**
+
+- aaa
+
+## <a id="deployment-and-local-development-aa"></a>**Deployment and local development**
+
+### **GitHub Pages**
+
+1. Log in to GitHub and locate [GitHub Repository IT-Quiz](https://github.com/AleksandarJavorovic/portfolio-project-2)
+2. At the navigation bar of the repository tab find "Settings", click.
+3. At the left side under the "Code and automation" section, click on "Pages".
+4. Next locate the "Source" and set it to "Deploy from a branch", branch should be "main", folder set to "root" and then click on the "Save" button.
+5. Head back to the [Project Repository](https://github.com/AleksandarJavorovic/portfolio-project-2) and on the right side click on [Deployments](https://github.com/AleksandarJavorovic/portfolio-project-2/deployments) and under the "Active deployments" section is the freshly deployed project: [IT-Quiz](https://aleksandarjavorovic.github.io/portfolio-project-2/).
+
+### **Forking the GitHub Repository**
+
+By forking the GitHub Repository we can make a copy of the original repository to view or make changes without changing the original repository.
+
+1. Log in to GitHub and locate [GitHub Repository IT-Quiz](https://github.com/AleksandarJavorovic/portfolio-project-2)
+2. At the top, in the line with the project's name, on the right side find "Fork", click.
+3. Now you have a copy of the original repository in your GitHub account.
