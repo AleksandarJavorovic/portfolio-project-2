@@ -454,3 +454,29 @@ By forking the GitHub Repository we can make a copy of the original repository t
 1. Log in to GitHub and locate [GitHub Repository IT-Quiz](https://github.com/AleksandarJavorovic/portfolio-project-2)
 2. At the top, in the line with the project's name, on the right side find "Fork", click.
 3. Now you have a copy of the original repository in your GitHub account.
+
+## <a id="credits-aa"></a>**Credits**
+
+Thanks to my mentor Mitko Bachvarov for tips and suggestions.
+
+### **Content**
+
+- Some things were inspired by [This video](https://www.youtube.com/watch?v=PBcqGxrr9g8).
+- Some things were inspired by [Love Maths](https://github.com/AleksandarJavorovic/love-maths) project.
+- This article [JavaScript Recursive Function](https://www.javascripttutorial.net/javascript-recursive-function/) has helped me to sort my getRandomQuestion function.
+- Other links which contributed to this project:
+  - [How to disable HTML button using JavaScript?](https://stackoverflow.com/questions/3014649/how-to-disable-html-button-using-javascript)
+  - [How to create a counter in JavaScript – Multiple methods](https://digifisk.com/counter-in-javascript/)
+  - [How to create a simple JavaScript timer?](https://stackoverflow.com/questions/31559469/how-to-create-a-simple-javascript-timer)
+  - [JavaScript: 2 Ways to Get a Random Element from an Array](https://www.slingacademy.com/article/javascript-ways-to-get-a-random-element-from-an-array/)
+  - [How can I set focus on an element in an HTML form using JavaScript?](https://stackoverflow.com/questions/17500704/how-can-i-set-focus-on-an-element-in-an-html-form-using-javascript)
+- Readme files which were used as inspiration:
+  - [RPSLS](https://github.com/ElinaBoman/rps2/blob/main/README.md)
+  - [LYRICAL BLANKETY BLANK](https://github.com/rachaelbabister/lyric-quiz/blob/main/README.md)
+  - [Visit Järbo](https://github.com/ClaudiaInSweden/visit-jarbo/blob/main/README.md)
+  - [XYZcellent Solutions](https://github.com/AleksandarJavorovic/portfolio-project-1/blob/main/README.md)
+
+
+### **Media**
+
+- Background photo is downloaded from: [Unsplash](https://unsplash.com/).
